@@ -53,7 +53,7 @@ fun ActivitasPertama(modifier : Modifier){
                 Column() {
                     Text(text = stringResource(id = R.string.nama), fontSize = 30.sp,
                         fontFamily = FontFamily.Cursive,
-                        color = Color.White,
+                        color = Color.Green,
                         modifier = Modifier.padding(top = 15.dp)
                         )
                     Text(
@@ -62,6 +62,8 @@ fun ActivitasPertama(modifier : Modifier){
                         color = Color.Yellow,
                         modifier = Modifier.padding(top = 10.dp)
                     )
+
+                    Spacer(modifier = Modifier.width(width = 30.dp ))
 
 
 
@@ -120,6 +122,7 @@ fun ActivitasPertama(modifier : Modifier){
                     modifier = Modifier.size(size = 100.dp).padding(all = 5.dp)
 
                 )
+
         }}
 
 
