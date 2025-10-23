@@ -75,7 +75,10 @@ fun ActivitasPertama(modifier : Modifier){
             .fillMaxWidth()
             .padding(all = 12.dp), colors = CardDefaults.cardColors(
             containerColor = Color.Blue
-        )){  }
+        )) { Row() {
+            val gambar = painterResource(id = R.drawable.logo)
+        }
+        }
 
 
         Box(
