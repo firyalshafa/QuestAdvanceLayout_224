@@ -53,7 +53,7 @@ fun ActivitasPertama(modifier : Modifier){
                 Column() {
                     Text(text = stringResource(id = R.string.nama), fontSize = 30.sp,
                         fontFamily = FontFamily.Cursive,
-                        color = Color.Green,
+                        color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                         )
                     Text(
@@ -112,7 +112,7 @@ fun ActivitasPertama(modifier : Modifier){
             .fillMaxWidth(fraction = 1f)
             .padding(all = 12.dp),
             colors = CardDefaults.cardColors(
-                containerColor = Color.DarkGray
+                containerColor = Color.Green
             )){
             Row() {
                 val gambar = painterResource(id = R.drawable.logo)
@@ -122,6 +122,8 @@ fun ActivitasPertama(modifier : Modifier){
                     modifier = Modifier.size(size = 100.dp).padding(all = 5.dp)
 
                 )
+
+                Spacer(modifier = Modifier.width(width = 30.dp ))
 
         }}
 
