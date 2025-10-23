@@ -105,8 +105,10 @@ fun ActivitasPertama(modifier : Modifier){
                     color = Color.White,
                     modifier = Modifier.padding(top = 10.dp)
                 )
+                Spacer(modifier = Modifier.width(width = 30.dp ))
         }
         }}
+
         Spacer(modifier= Modifier.height(height = 25.dp))
         Card (modifier = Modifier
             .fillMaxWidth(fraction = 1f)
@@ -124,6 +126,26 @@ fun ActivitasPertama(modifier : Modifier){
                 )
 
                 Spacer(modifier = Modifier.width(width = 30.dp ))
+
+                Column() {
+                    Text(text = stringResource(id = R.string.nama2), fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.alamat2),
+                        fontSize = 20.sp,
+                        color = Color.Blue,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                    Text(
+                        text = stringResource(id = R.string.nomerhp1),
+                        fontSize = 20.sp,
+                        color = Color.Yellow,
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
+                    Spacer(modifier = Modifier.width(width = 30.dp ))
 
         }}
 
