@@ -104,7 +104,9 @@ fun ActivitasPertama(modifier : Modifier){
                     modifier = Modifier.padding(top = 10.dp)
                 )
         }
-        }
+        }}
+        Spacer(modifier= Modifier.height(height = 25.dp))
+
 
 
         Box(
