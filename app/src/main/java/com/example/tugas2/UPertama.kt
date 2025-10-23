@@ -88,21 +88,22 @@ fun ActivitasPertama(modifier : Modifier){
             Spacer(modifier = Modifier.width(width = 30.dp ))
 
             Column() {
-                Text(text = stringResource(id = R.string.nama1), fontSize = 30.sp,
-                    fontFamily = FontFamily.Cursive,
+                Text(
+                    text = stringResource(id = R.string.nama1),
+                    fontSize = 20.sp,
                     color = Color.White,
-                    modifier = Modifier.padding(top = 15.dp)
+                    modifier = Modifier.padding(top = 10.dp)
                 )
                 Text(
                     text = stringResource(id = R.string.alamat1),
                     fontSize = 20.sp,
-                    color = Color.Yellow,
+                    color = Color(color = 0xFF64B5F6),
                     modifier = Modifier.padding(top = 10.dp)
                 )
                 Text(
                     text = stringResource(id = R.string.nomerhp),
                     fontSize = 20.sp,
-                    color = Color.White,
+                    color = Color.Gray,
                     modifier = Modifier.padding(top = 10.dp)
                 )
                 Spacer(modifier = Modifier.width(width = 30.dp ))
@@ -128,15 +129,16 @@ fun ActivitasPertama(modifier : Modifier){
                 Spacer(modifier = Modifier.width(width = 30.dp ))
 
                 Column() {
-                    Text(text = stringResource(id = R.string.nama2), fontSize = 30.sp,
-                        fontFamily = FontFamily.Cursive,
+                    Text(
+                        text = stringResource(id = R.string.nama2),
+                        fontSize = 20.sp,
                         color = Color.White,
-                        modifier = Modifier.padding(top = 15.dp)
+                        modifier = Modifier.padding(top = 10.dp)
                     )
                     Text(
                         text = stringResource(id = R.string.alamat2),
                         fontSize = 20.sp,
-                        color = Color.Blue,
+                        color = Color(color = 0xFF90CAF9),
                         modifier = Modifier.padding(top = 10.dp)
                     )
                     Text(
