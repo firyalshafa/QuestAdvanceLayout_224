@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">tugas2</string>
-    
+    <string name="prodi">teknologi informasi</string>
+    <string name="univ">universitas muhamadiyah yogyakarta</string>
+    <string name="nama">firyal shafa salsabila</string>
+    <string name="alamat">kasihan, bantul</string>
+    <string name="copy">copyright, 2025</string>
 </resources>
