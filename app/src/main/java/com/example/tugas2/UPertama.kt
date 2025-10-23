@@ -145,11 +145,10 @@ fun ActivitasPertama(modifier : Modifier){
                         color = Color.Yellow,
                         modifier = Modifier.padding(top = 10.dp)
                     )
-                    Spacer(modifier = Modifier.width(width = 30.dp ))
-
-        }}
 
 
+        }
+            }}
 
         Box(
             modifier = Modifier
@@ -167,5 +166,4 @@ fun ActivitasPertama(modifier : Modifier){
 
     }
 
-}
 }
